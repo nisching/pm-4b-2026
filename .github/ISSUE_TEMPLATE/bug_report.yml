@@ -1,0 +1,23 @@
+
+name: "Issue erstellen"
+description: "Vorlage für ein neues Issue"
+
+body:
+  - type: input
+    id: beschreibung
+    attributes:
+      label: "Beschreibung"
+      placeholder: "Gib hier deinen Text ein"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: prioritaet
+    attributes:
+      label: "Priorität"
+      options:
+        - Niedrig
+        - Mittel
+        - Hoch
+    validations:
+      required: true
