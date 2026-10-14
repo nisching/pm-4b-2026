@@ -1,13 +1,13 @@
 
 name: "Bug Report"
-description: "Vorlage für einen neuen Bug Report"
+description: "Erstelle einen Bug Report"
 
 body:
-  - type: input
+  - type: textarea
     id: beschreibung
     attributes:
       label: "Beschreibung"
-      placeholder: "Gib hier deinen Text ein"
+      description: "Beschreibe dein Problem"
     validations:
       required: true
 
