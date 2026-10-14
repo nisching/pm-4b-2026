@@ -1,6 +1,6 @@
 
-name: "Issue erstellen"
-description: "Vorlage für ein neues Issue"
+name: "Bug Report"
+description: "Vorlage für einen neuen Bug Report"
 
 body:
   - type: input
